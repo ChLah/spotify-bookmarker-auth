@@ -10,7 +10,7 @@ export class AuthorizeController {
             ...spotifyConfig, 
             //redirectUri: `https://${process.env.GCLOUD_PROJECT}.firebaseapp.com/authcallback`
             // For testing purposes:
-            redirectUri: 'http://localhost:4200/authcallback'
+            redirectUri: 'https://spotify-bookmarker.web.app/authcallback'
         });
     }
 
